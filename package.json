@@ -1,0 +1,23 @@
+{
+  "name": "grapesjs-dynamodb-plugin",
+  "version": "1.0.0",
+  "description": "GrapesJS DynamoDB Plugin",
+  "main": "dist/grapesjs-dynamodb-plugin.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rudynorff/grapesjs-dynamodb-plugin.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^1.0.10"
+  },
+  "license": "MIT"
+}
